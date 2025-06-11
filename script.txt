@@ -5,6 +5,6 @@ docker
 pwd
 mkdir dockercomp
 cd dockercomp
-wget -O Win10VLqL.yml https://github.com/MOSS-afk/Blablabla/blob/main/Win10VLqL.yml
+wget -O Win10VLqL.yml https://raw.githubusercontent.com/MOSS-afk/Blablabla/refs/heads/main/Win10VLqL.yml
 cat Win10VLqL.yml
 sudo docker-compose -f Win10VLqL.yml up
