@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "2019"
+      VERSION: "2012"
       USERNAME: "Johnn"
       PASSWORD: "123123"
       RAM_SIZE: "12G"
